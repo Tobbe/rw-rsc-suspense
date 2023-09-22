@@ -6,6 +6,12 @@ This app shows Suspense on both the server and the client
 
 ## How to run
 
+### GitPod
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer/)
+
+### Locally
+
 `yarn install`
 
 `yarn rw build -v && yarn rw serve`
