@@ -9,12 +9,7 @@ tasks:
 
       yarn install
 
-    command: |
-      cmd="yarn rw build -v"
-      cmd="yarn rw serve"
-      printf "Executing '%s' ..." "${cmd}"
-      ${cmd}
-
+    command: yarn rw build -v && yarn rw serve
 ports:
   - port: 5432
     name: PostgreSQL database
