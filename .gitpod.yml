@@ -1,6 +1,6 @@
 # To learn about this file, please see https://www.gitpod.io/docs/references/gitpod-yml
 
-image: gitpod/workspace-postgres
+image: gitpod/workspace-node-lts
 
 tasks:
   - init: |
@@ -11,9 +11,6 @@ tasks:
 
     command: yarn rw build -v && yarn rw serve
 ports:
-  - port: 5432
-    name: PostgreSQL database
-    onOpen: ignore
   - port: 8910
     name: RedwoodJS web application
     onOpen: notify # because we already have [browser].open = true in redwood.toml
@@ -24,11 +21,5 @@ ports:
 vscode:
   extensions:
     - "dbaeumer.vscode-eslint"
-    - "eamodio.gitlens"
-    # - "ofhumanbondage.react-proptypes-intellisense" - Not published to Open VSX (yet)
     - "mgmcdermott.vscode-language-babel"
-    - "wix.vscode-import-cost"
-    - "pflannery.vscode-versionlens"
     - "editorconfig.editorconfig"
-    - "prisma.prisma"
-    - "graphql.vscode-graphql"
