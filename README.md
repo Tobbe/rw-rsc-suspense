@@ -33,3 +33,12 @@ There are a few things going on here. I'll go through them one-by-one
    interactive while that suspense boundary sits there waiting. So you can
    still click the "Increment" button(s) and the updated client state will be
    passed in to the suspended part of the component when it's ready.
+
+## List of Redwood RSC demos
+
+ 1. https://github.com/Tobbe/rw-rsc-client-counter
+ 2. https://github.com/Tobbe/rw-rsc-suspense
+ 3. https://github.com/Tobbe/rw-rsc-server-mutation
+ 4. https://github.com/Tobbe/rw-rsc-rsf-return-value
+ 5. https://github.com/Tobbe/rw-rsc-form-server-action
+ 6. https://github.com/Tobbe/rw-rsc-ai-jsx
